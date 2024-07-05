@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+}
+body {
+  color: #222;
+  font-family: "Roboto", sans-serif;
+  line-height: 1;
+}
+
+/* headings */
+.primary-heading {
+  font-size: 6.4rem;
+  margin-bottom: 3.2rem;
+}
+.secondary-heading {
+  font-size: 4.2rem;
+  margin-bottom: 3.2rem;
+}
+.ternary-heading {
+  font-size: 2.4rem;
+  margin-bottom: 1.3rem;
+}
+
+/* container */
+.container {
+  max-width: 100rem;
+  margin: 0 auto;
+  padding: 0 6rem;
+}
+
+/* grids */
+.grid {
+  display: grid;
+}
+.grid--2--cols {
+  grid-template-columns: repeat(2, 1fr);
+  column-gap: 4.2rem;
+}
+.grid--3--cols {
+  grid-template-columns: repeat(2, 1fr);
+  column-gap: 4.2rem;
+}

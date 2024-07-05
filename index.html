@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- <link
+      href="https://fonts.googleapis.com/css2?family=Roboto,wght@1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    /> -->
+    <link rel="stylesheet" href="general.css" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="query.css" />
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script defer src="app.js"></script>
+    <title>Sujit Adroja | Front-end Developer</title>
+  </head>
+  <body>
+    <header class="header">
+      <nav class="nav">
+        <h2 class="logo">sujit.dev</h2>
+        <ul class="nav-list">
+          <li class="list-item"><a class="link" href="#">Home</a></li>
+          <li class="list-item"><a class="link" href="#about">About</a></li>
+          <li class="list-item">
+            <a class="link" href="#project">Projects</a>
+          </li>
+          <li class="list-item"><a class="link" href="#contact">Contact</a></li>
+        </ul>
+        <button class="btn-menu">
+          <ion-icon name="grid-outline" class="icon-menu"></ion-icon>
+        </button>
+      </nav>
+      <div class="sidebar-wrapper">
+        <div class="sidebar">
+          <div class="icon-close">
+            <ion-icon name="close-outline" class="icon-close-menu"></ion-icon>
+          </div>
+          <ul class="sidebar-list">
+            <li class="sidebar-item"><a class="link" href="#">Home</a></li>
+            <li class="sidebar-item">
+              <a class="link" href="#about">About</a>
+            </li>
+            <li class="sidebar-item">
+              <a class="link" href="#project">Projects</a>
+            </li>
+            <li class="sidebar-item">
+              <a class="link" href="#contact">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </header>
+    <section class="section-intro">
+      <div class="container">
+        <div class="grid section-intro-grid">
+          <div class="intro-description">
+            <h2 class="primary-heading">Front-end React Developer</h2>
+            <p class="intro-info">
+              Hi, I'm Sujit Adroja. An inthusiastic front-end developer
+              currently at Nashik Maharashtra.
+            </p>
+            <div class="social-icon">
+              <a href="https://github.com/SujitAdroja" target="_blank"
+                ><ion-icon class="icon-social" name="logo-github"></ion-icon
+              ></a>
+              <a
+                href="https://www.linkedin.com/in/sujit-adroja-15a967206/"
+                target="_blank"
+                ><ion-icon class="icon-social" name="logo-linkedin"></ion-icon
+              ></a>
+            </div>
+            <div class="icon-container">
+              <div class="icon-title">My Experties</div>
+              <div class="icon-skill-container">
+                <div>
+                  <img
+                    class="icon"
+                    src="/icon-img/icons8-html-5.svg"
+                    alt="html"
+                  />
+                </div>
+                <div>
+                  <img src="/icon-img/icons8-css3.svg" alt="css" class="icon" />
+                </div>
+                <div>
+                  <img
+                    src="/icon-img/icons8-javascript.svg"
+                    alt="javascript"
+                    class="icon"
+                  />
+                </div>
+                <div>
+                  <img
+                    src="/icon-img/icons8-react-native.svg"
+                    alt="react"
+                    class="icon"
+                  />
+                </div>
+                <div>
+                  <img
+                    src="/icon-img/icons8-bootstrap.svg"
+                    alt="bootstrap"
+                    class="icon"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="profile-img"></div>
+        </div>
+      </div>
+    </section>
+    <section class="section section-about" id="about">
+      <div class="container">
+        <div class="grid grid--2--cols">
+          <figure class="about-figure">
+            <img
+              class="about-img"
+              src="/img/desk-background.jpg"
+              alt="desk image"
+            />
+          </figure>
+          <div class="about-container-description">
+            <p class="label">ABOUT ME</p>
+            <h2 class="secondary-heading abou t-heading">
+              A Front-End developer based in nashik maharashtra
+            </h2>
+            <p class="about-description">
+              As a Junior Front-End Developer, I possess an impressive arsenal
+              of skills in HTML, CSS, JavaScript, React, Tailwind . I excel in
+              designing and maintaining responsive websites that offer a smooth
+              user experience. My expertise lies in crafting dynamic, engaging
+              interfaces through writing clean and optimized code and utilizing
+              cutting-edge development tools and techniques. I am also a team
+              player who thrives in collaborating with cross-functional teams to
+              produce outstanding web applications.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="section section-projects" id="project">
+      <div class="container">
+        <p class="label">Projects</p>
+        <h2 class="secondary-heading project-heading">
+          Some Project I have created
+        </h2>
+        <div class="project">
+          <div class="project-no"><p>01</p></div>
+          <div class="grid grid--2--cols">
+            <div class="project-description">
+              <h3 class="ternary-heading">Omnifood</h3>
+              <p class="project-detail">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                Doloremque, sunt eaque!
+              </p>
+              <div class="project-skills">
+                <span>HTML</span>
+                <span>CSS</span>
+                <span>Javascript</span>
+              </div>
+              <div class="project-source">
+                <a
+                  href="https://github.com/SujitAdroja"
+                  class="project-load"
+                  target="_blank"
+                  ><span>GitHub</span
+                  ><ion-icon class="icon-social" name="logo-github"></ion-icon
+                ></a>
+                <a
+                  href="https://omnifood-stayhealthy.netlify.app"
+                  target="_blank"
+                  class="project-load"
+                  ><span>Live Demo</span
+                  ><svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke-width="1.5"
+                    stroke="currentColor"
+                    class="icon-social"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      d="M13.5 6H5.25A2.25 2.25 0 003 8.25v10.5A2.25 2.25 0 005.25 21h10.5A2.25 2.25 0 0018 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25"
+                    />
+                  </svg>
+                </a>
+              </div>
+            </div>
+            <div class="project-img-container">
+              <img
+                src="/img/omnifood_project.png"
+                alt="omnifood project"
+                class="project-img"
+              />
+            </div>
+          </div>
+        </div>
+        <div class="project">
+          <div class="project-no"><p>02</p></div>
+          <div class="grid grid--2--cols">
+            <div class="project-description">
+              <h3 class="ternary-heading">Forkify</h3>
+              <p class="project-detail">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                Doloremque, sunt eaque!
+              </p>
+              <div class="project-skills">
+                <span>HTML</span>
+                <span>CSS</span>
+                <span>Javascript</span>
+              </div>
+              <div class="project-source">
+                <a
+                  href="https://github.com/SujitAdroja"
+                  class="project-load"
+                  target="_blank"
+                  ><span>GitHub</span
+                  ><ion-icon class="icon-social" name="logo-github"></ion-icon
+                ></a>
+                <a
+                  href="https://forkify-sujit-app.netlify.app"
+                  target="_blank"
+                  class="project-load"
+                >
+                  <span>Live Demo</span
+                  ><svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke-width="1.5"
+                    stroke="currentColor"
+                    class="icon-social"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      d="M13.5 6H5.25A2.25 2.25 0 003 8.25v10.5A2.25 2.25 0 005.25 21h10.5A2.25 2.25 0 0018 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25"
+                    />
+                  </svg>
+                </a>
+              </div>
+            </div>
+            <div class="project-img-container">
+              <img
+                src="/img/forkify.png"
+                alt="omnifood project"
+                class="project-img"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="section section-contact" id="contact">
+      <div class="container">
+        <p class="label">Projects</p>
+        <h2 class="secondary-heading project-heading">Let's Work Together</h2>
+        <div class="grid grid--2--cols">
+          <div class="email">
+            <div class="contact-description">
+              <ion-icon
+                name="mail-open-outline"
+                class="icon-contact"
+              ></ion-icon>
+              <a href="mailto:sujitadroja07@gmail.com"
+                >sujitadroja07@gmail.com</a
+              >
+            </div>
+          </div>
+          <div></div>
+        </div>
+      </div>
+    </section>
+    <footer class="section-footer">
+      <div class="container">
+        <p class="copy">&copy; copyrighted</p>
+      </div>
+    </footer>
+  </body>
+</html>

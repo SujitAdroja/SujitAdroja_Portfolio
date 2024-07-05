@@ -1,0 +1,104 @@
+/* tablets */
+/* for large tablets below 960px   */
+@media (max-width: 60em) {
+  html {
+    /* 8px / 16px = 0.5 = 50% */
+    font-size: 55%;
+  }
+  .container {
+    padding: 0 4rem;
+    margin: 0 1rem;
+  }
+  .section {
+    padding: 15rem 0;
+  }
+  .section-intro {
+    padding: 17rem 0;
+  }
+  .primary-heading {
+    font-size: 4.2rem;
+  }
+  .secondary-heading {
+    font-size: 3.6rem;
+  }
+  .icon-title {
+    font-size: 1.6rem;
+    border: none;
+    border-bottom: 0.5px solid;
+    margin-bottom: 1rem;
+  }
+  .icon {
+    height: 5.5rem;
+    width: 6rem;
+    padding: 0.7rem;
+    border-radius: 50%;
+    box-shadow: 0 0 1rem rgba(0, 0, 0, 0.1);
+  }
+  .nav-list {
+    display: none;
+  }
+  .btn-menu {
+    display: block;
+  }
+  .grid--2--cols {
+    grid-template-columns: 1fr;
+    row-gap: 3.2rem;
+  }
+
+  .icon-container {
+    flex-direction: column;
+  }
+  .label {
+    margin-bottom: 4.6rem;
+  }
+  .about-figure {
+    justify-self: center !important;
+    width: 70%;
+    margin: 0 auto;
+  }
+  .about-container-description {
+    justify-self: center;
+    text-align: center;
+    width: 70%;
+  }
+  .project-description {
+    grid-row: 2/3;
+  }
+  .sidebar {
+    width: 100%;
+  }
+  .contact-description {
+    gap: 1rem;
+  }
+  .icon-contact {
+    font-size: 2.4rem;
+  }
+}
+
+/* smaller tabs below 770*/
+
+@media screen and (max-width: 49em) {
+  .section-intro {
+    padding: 10rem 0;
+  }
+  .section-intro-grid {
+    grid-template-columns: 1fr;
+    row-gap: 4.2rem;
+    align-items: center;
+    justify-content: center;
+  }
+  .intro-description {
+    text-align: center;
+    justify-self: center;
+    grid-row: 2/3;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .about-figure {
+    width: 100%;
+  }
+  .about-container-description {
+    width: 100%;
+  }
+}
